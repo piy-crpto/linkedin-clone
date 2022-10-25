@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+background-color: #f3f2ef;
+}
+.linkedin_body{
+  width: 70%;
+  margin: 0 12%;
+  display: flex;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media only screen and (max-width: 480px) {
+  .sb,.rb{
+   display: none;
+  }
+ 
+ }
+ .hd
+ {
+  background-color: #fff;
+  min-width: 100vw;
+ }
+
+
